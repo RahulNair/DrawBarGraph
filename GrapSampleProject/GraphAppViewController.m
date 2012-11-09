@@ -35,7 +35,7 @@
     [graphCanvas setFrame:CGRectMake(0, 0,self.view.frame.size.width,self.view.frame.size.height) ];
     [graphCanvas setNumber_of_point_to_plot:[percentValueOfStudent_RED count]];
    
-    graphCanvas.max_percent_val = 100;
+    graphCanvas.max_percent_val =  100;
     
     
     for (int i = 0 ; i <= graphCanvas.number_of_point_to_plot-1; i++) {
