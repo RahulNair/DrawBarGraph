@@ -126,6 +126,7 @@
     
     
     for (int k = 0; k < arryOfBarContent.count; k++) {
+        
         GraphAppModal *graphModal = [arryOfBarContent objectAtIndex:k];
         UIColor *color = graphModal.colorOfBar;
         NSArray *array = [graphModal.arrayWithValue objectAtIndex:0];
